@@ -1,8 +1,14 @@
-p {
-  color: red;
+h1 {
+  font-family: "Avenir Next", Bold;
 }
+
+p {
+  color: black;
+  font-family: "Avenir Next", Bold;
+}
+
 div{
  width: 38rem;
  margin: 0 auto;
- background-color: yellow;
+ background-color: #FFCC33;
 }
