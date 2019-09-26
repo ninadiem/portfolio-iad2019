@@ -1,87 +1,82 @@
+html {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* oder rem/em */
+  html {
+    font-size: 18px;
+  }
+}
+
 h1 {
   font-family: 'Muli', sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 900;
-  text-shadow: 6px 5px rgb(255, 197, 71);
-
+  line-height: 1.2em;
+  text-shadow: 0.06em 0.06em rgb(255, 197, 71);
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+  hyphens: auto;
 }
 
 h2 {
   font-family: 'Muli', sans-serif;
-  font-size: 50px;
+  font-size: 2.7rem;
   font-weight: 900;
-  margin-top: 0px;
-  margin-bottom: 8px;
+  margin-top: 0rem;
+  margin-bottom: 0.3rem;
 
-  /* border-top-width: 5px;
-  border-top-color: red;
+  border-top-width: 0.14em;
+  border-top-color: black;
   border-top-style: solid;
-  padding-top: 1rem; */
+  padding-top: 1rem;
 }
 
-.xyz {
-  font-size: 10px;
-  color: cyan;
-}
-
-.box {
-  background-color: gray;
-  width: 300px;
-  height: 300px;
-}
 h3 {
   font-family: 'Muli', sans-serif;
-  font-size: 25px;
+  font-size: 1.4rem;
   font-weight: 900;
-  /* text-decoration: underline; */
-  margin-top: 0px;
-  margin-bottom: 40px;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
 }
 
 h4 {
   font-family: 'Muli', sans-serif;
-  font-size: 25px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: rgb(255, 197, 71);
-  margin-top: 0px;
-  margin-bottom: 8px;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
   /* text-decoration: underline; */
-
 }
 
 h5 {
   font-family: 'Muli', sans-serif;
-  font-size: 10px;
+  font-size: 0.5rem;
   font-weight: 400;
-  margin-top: 0px;
+  margin-top: 0rem;
 }
 
 p {
   font-family: 'Muli', sans-serif;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
-  text-align: justify;
-  line-height: 1.4;
-  margin-top: 0px;
-}
-
-hr {
-  height: 5px;
-  color: black;
-  background-color: black;
-  border: 0;
+  /* text-align: justify; */
+  line-height: 1.4em;
+  margin-top: 0rem;
 }
 
 
 body {
   background-color: rgb(255, 197, 71);
 
-  margin-top: 1.2rem;
+  margin-top: 1.4rem;
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
   margin-left: 1.5rem;
 }
-
 
 .hintergrund {
   width: 100%;
@@ -95,8 +90,8 @@ body {
 }
 
 .textspalte{
-  max-width: 40em;
-  width: 95%;
+  max-width: 40rem;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -105,7 +100,34 @@ body {
   width: 100%;
 }
 
+
+
+/*für grössere Abstände zwischen Kapiteln zb*/
 .space {
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
+
+
+
+/* hr {
+  height: 5px;
+  color: black;
+  background-color: black;
+  border: 0;
+} */
+
+
+
+/* .xyz p {
+  font-size: 10px;
+  color: cyan;
+} */
+
+
+/*
+.box {
+  background-color: gray;
+  width: 300px;
+  height: 300px;
+} */
