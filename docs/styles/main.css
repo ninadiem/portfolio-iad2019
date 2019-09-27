@@ -16,8 +16,7 @@ h1 {
   font-weight: 900;
   line-height: 1.2em;
   text-shadow: 0.06em 0.06em rgb(255, 197, 71);
-  margin-top: 0rem;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
   hyphens: auto;
 }
 
@@ -25,7 +24,7 @@ h2 {
   font-family: 'Muli', sans-serif;
   font-size: 2.7rem;
   font-weight: 900;
-  margin-top: 0rem;
+  margin-top: 5rem;
   margin-bottom: 0.3rem;
 
   border-top-width: 0.14em;
@@ -47,7 +46,7 @@ h4 {
   font-size: 1.4rem;
   font-weight: 700;
   color: rgb(255, 197, 71);
-  margin-top: 0rem;
+  margin-top: 3rem;
   margin-bottom: 0.5rem;
   /* text-decoration: underline; */
 }
@@ -66,6 +65,7 @@ p {
   /* text-align: justify; */
   line-height: 1.4em;
   margin-top: 0rem;
+  margin-bottom: 3rem;
 }
 
 
