@@ -68,6 +68,18 @@ p {
   margin-bottom: 3rem;
 }
 
+.Textanker {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.6em;
+  color: black;
+  text-shadow: 0.08em 0.09em rgb(255, 197, 71);  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+
+}
+
 
 body {
   background-color: rgb(255, 197, 71);
@@ -101,13 +113,55 @@ body {
 }
 
 
+@media only screen and (min-width: 600px) {
+  /* oder rem/em */
+  .bildgalerie{
+    display: flex;
+    justify-content: space-between;
+  }
+  .spalte1,
+  .spalte2{
+    flex-basis: 48.5%;
+    max-width: 48.5%;
+  }
+}
+
+
+
+.box{
+  height: auto;
+  padding: 1rem;
+  outline-style: solid;
+  outline-width: 0.15em;
+  outline-color: rgb(255, 197, 71);
+}
+
+.fazittext{
+  /* font-family: 'Arvo', serif; */
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.1em;
+  letter-spacing: 0.03em;
+  /* font-size: 0.95rem; */
+  color: rgb(255, 197, 71);
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
 
 /*für grössere Abstände zwischen Kapiteln zb*/
 .space {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+height: 2rem
 }
 
+.Backtotop{
+ position: fixed;
+ padding:0.35em 1.2em;
+ border:0.1em solid red;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:red;
+}
 
 
 /* hr {
