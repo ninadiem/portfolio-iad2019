@@ -1,23 +1,25 @@
-#top {
-
-  position: absolute;
-  top: -200px;
-}
-
-
 html {
   font-family: 'Muli', sans-serif;
   font-size: 15px;
 }
 
+
 @media only screen and (min-width: 600px) {
   /* oder rem/em */
   html {
     font-size: 18px;
-  }
+    }
+  /* h1 {
+    font-size: 5rem;
+    } */
 }
 
-h1 {
+
+
+
+h1
+/* Absatzformat Haupttitel */
+{
   font-family: 'Muli', sans-serif;
   font-size: 5rem;
   font-weight: 900;
@@ -28,6 +30,7 @@ h1 {
 }
 
 h2 {
+  /* Absatzformat Titel */
   font-family: 'Muli', sans-serif;
   font-size: 2.7rem;
   font-weight: 900;
@@ -41,6 +44,7 @@ h2 {
 }
 
 h3 {
+  /* Absatzformat Datum */
   font-family: 'Muli', sans-serif;
   font-size: 1.4rem;
   font-weight: 900;
@@ -49,6 +53,7 @@ h3 {
 }
 
 h4 {
+  /* Absatzformat Untertitel */
   font-family: 'Muli', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
@@ -59,6 +64,7 @@ h4 {
 }
 
 h5 {
+  /* Absatzformat Quelle */
   font-family: 'Muli', sans-serif;
   font-size: 0.5rem;
   font-weight: 400;
@@ -66,6 +72,7 @@ h5 {
 }
 
 p {
+  /* Absatzformat Grundtext */
   font-family: 'Muli', sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -75,7 +82,27 @@ p {
   margin-bottom: 3rem;
 }
 
-.Textanker {
+.Textanker
+/* Absatzformat Navigationsmenu zb Tag 1 */
+{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 3em;
+  color: rgb(255, 197, 71);
+  text-decoration: none;
+
+  margin: 0.5rem;
+  height: auto;
+  padding: 0.5rem;
+  outline-style: solid;
+  outline-width: 0.15em;
+  outline-color: rgb(255, 197, 71);
+}
+
+
+/* .Textanker
+{
   font-family: 'Muli', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -85,16 +112,18 @@ p {
   margin-bottom: 0.5rem;
   text-decoration: underline;
 
-}
+} */
+
 
 
 body {
+  /* Hintergrundfarbe Gelb */
   margin: 0;
   background-color: rgb(255, 197, 71);
 }
 
 .content {
-
+  /* Box Inhalt */
   margin-top: 1.4rem;
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
@@ -102,17 +131,19 @@ body {
 }
 
 .hintergrund {
+  /* Hintergrund Weiss */
   width: 100%;
-  /* margin-left: 20px; */
-  /* margin-right: 20px; */
   background-color: white;
 }
 
 .hintergrund img {
+  /* Titelbild so breit wie content */
   width: 100%;
 }
 
+
 .textspalte{
+  /* Textspalte */
   max-width: 40rem;
   width: 85%;
   margin-left: auto;
@@ -120,13 +151,16 @@ body {
 }
 
 .textspalte img {
+  /* Bilder so breit wie textspalte */
   width: 100%;
 }
 
 
 @media only screen and (min-width: 600px) {
+  /* Wenn Bildschirm gleich oder breiter als 600px */
   /* oder rem/em */
-  .bildgalerie{
+  .bildgalerie2spaltig{
+    /* Box mit zwei Spalten mit je 1 Bild */
     display: flex;
     justify-content: space-between;
   }
@@ -135,70 +169,70 @@ body {
     flex-basis: 48.5%;
     max-width: 48.5%;
   }
+
+  .bildgalerie3spaltig{
+    /* Box mit drei Spalten mit je 1 Bild */
+    display: flex;
+    justify-content: space-between;
+  }
+  .spalte1,
+  .spalte2,
+  .spalte3{
+    flex-basis: 31.3333333333%;
+    max-width: 31.3333333333%;
+  }
+}
+
+.space {
+  /*für grössere Abstände zwischen Kapiteln zb*/
+  height: 2rem
+}
+
+img.jump-top  {
+  /*jump to top button*/
+  width: 4rem;
+  height: 4rem;
+  display: block;
+  position: fixed; right: 3rem; bottom: 3rem;
+}
+
+#top
+/* Position wo back to top button hinspringt */
+{
+  position: absolute;
+  top: -200px;
 }
 
 
-
-.box{
+/* .fazitbox{
   height: auto;
   padding: 1rem;
   outline-style: solid;
   outline-width: 0.15em;
   outline-color: rgb(255, 197, 71);
-}
+} */
 
-.fazittext{
+/* .fazittext{ */
   /* font-family: 'Arvo', serif; */
-  font-family: 'Crimson Text', serif;
+  /* font-size: 0.95rem; */
+
+  /* font-family: 'Crimson Text', serif;
   font-style: italic;
   font-size: 1.3rem;
   line-height: 1.1em;
   letter-spacing: 0.03em;
-  /* font-size: 0.95rem; */
   color: rgb(255, 197, 71);
   margin-top: 0rem;
   margin-bottom: 0rem;
-}
+} */
 
-/*für grössere Abstände zwischen Kapiteln zb*/
-.space {
-height: 2rem
-}
 
-.Backtotop{
+
+/* .Backtotop{
  position: fixed;
  padding:0.35em 1.2em;
  border:0.1em solid red;
  font-family:'Roboto',sans-serif;
  font-weight:300;
  color:red;
-}
-
-
-/* hr {
-  height: 5px;
-  color: black;
-  background-color: black;
-  border: 0;
 } */
-
-
-
-/* .xyz p {
-  font-size: 10px;
-  color: cyan;
-} */
-
-
-/*
-.box {
-  background-color: gray;
-  width: 300px;
-  height: 300px;
-} */
-
-img.jump-top  {
-  width: 3rem;
-  height: 3rem;
-  display: block;
-}
