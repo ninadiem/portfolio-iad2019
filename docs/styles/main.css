@@ -3,23 +3,23 @@ html {
   font-size: 15px;
 }
 
-
 @media only screen and (min-width: 600px) {
+
   /* oder rem/em */
   html {
     font-size: 18px;
-    }
+  }
+
   /* h1 {
     font-size: 5rem;
     } */
 }
 
-
 /* ABSATZ- & ZEICHENFORMATE */
-
 h1
+
 /* Absatzformat Haupttitel */
-{
+  {
   font-family: 'Muli', sans-serif;
   font-size: 5rem;
   font-weight: 900;
@@ -37,7 +37,6 @@ h2 {
   letter-spacing: 0.01em;
   margin-top: 5rem;
   margin-bottom: 0.3rem;
-
   border-top-width: 0.14em;
   border-top-color: black;
   border-top-style: solid;
@@ -65,7 +64,6 @@ h4 {
   margin-bottom: 0.5rem;
   /* text-decoration: underline; */
 }
-
 
 /* Zeichenformat Untertitel Versal Italic */
 .auszeichnung {
@@ -104,17 +102,18 @@ p {
   font-size: 1.2rem;
   font-weight: 700;
   color: rgb(255, 197, 71);
-
   margin: 0.4em;
   border: 0.15em solid rgb(255, 197, 71);
   background-color: none;
   padding: 0.45em;
   cursor: pointer;
 }
-.btn1{
+
+.btn1 {
   color: rgb(255, 197, 71);
 }
-.btn1:hover{
+
+.btn1:hover {
   transition: 0.8s;
   background-color: black;
 }
@@ -123,10 +122,7 @@ p {
   color: black;
 }
 
-
-
 /* FORMATIERUNGEN */
-
 body {
   /* Hintergrundfarbe Gelb */
   margin: 0;
@@ -152,8 +148,7 @@ body {
   width: 100%;
 }
 
-
-.textspalte{
+.textspalte {
   /* Textspalte */
   max-width: 40rem;
   width: 85%;
@@ -166,21 +161,22 @@ body {
   width: 100%;
 }
 
-
 @media only screen and (min-width: 600px) {
+
   /* Wenn Bildschirm gleich oder breiter als 600px */
   /* oder rem/em */
-  .bildgalerie2spaltig, .bildgalerie3spaltig{
+  .bildgalerie2spaltig, .bildgalerie3spaltig {
     /* Box mit zwei Spalten mit je 1 Bild */
     display: flex;
     justify-content: space-between;
   }
+
   .bildgalerie2spaltig .spalte {
     flex-basis: 48.5%;
     max-width: 48.5%;
   }
 
-  .bildgalerie3spaltig .spalte{
+  .bildgalerie3spaltig .spalte {
     flex-basis: 31.3333333333%;
     max-width: 31.3333333333%;
   }
@@ -191,28 +187,25 @@ body {
   height: 2rem
 }
 
-img.jump-top  {
+img.jump-top {
   /*jump to top button*/
   width: 4rem;
   height: 4rem;
   display: block;
-  position: fixed; right: 3rem; bottom: 3rem;
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
 }
 
 #top
+
 /* Position wo back to top button hinspringt */
-{
+  {
   position: absolute;
   top: -200px;
 }
 
-
-
-
-
 /* ARCHIV */
-
-
 /* Absatzformat Navigationsmenu zb Tag 1
 .Textanker{
   font-family: 'Muli', sans-serif;
@@ -229,8 +222,6 @@ img.jump-top  {
   outline-width: 0.15em;
   outline-color: rgb(255, 197, 71);
 } */
-
-
 /* .Textanker
 {
   font-family: 'Muli', sans-serif;
@@ -243,9 +234,6 @@ img.jump-top  {
   text-decoration: underline;
 
 } */
-
-
-
 /* .fazitbox{
   height: auto;
   padding: 1rem;
@@ -253,12 +241,10 @@ img.jump-top  {
   outline-width: 0.15em;
   outline-color: rgb(255, 197, 71);
 } */
-
 /* .fazittext{ */
-  /* font-family: 'Arvo', serif; */
-  /* font-size: 0.95rem; */
-
-  /* font-family: 'Crimson Text', serif;
+/* font-family: 'Arvo', serif; */
+/* font-size: 0.95rem; */
+/* font-family: 'Crimson Text', serif;
   font-style: italic;
   font-size: 1.3rem;
   line-height: 1.1em;
@@ -267,9 +253,6 @@ img.jump-top  {
   margin-top: 0rem;
   margin-bottom: 0rem;
 } */
-
-
-
 /* .Backtotop{
  position: fixed;
  padding:0.35em 1.2em;
