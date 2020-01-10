@@ -15,7 +15,7 @@ html {
 }
 
 
-
+/* ABSATZ- & ZEICHENFORMATE */
 
 h1
 /* Absatzformat Haupttitel */
@@ -34,6 +34,7 @@ h2 {
   font-family: 'Muli', sans-serif;
   font-size: 2.7rem;
   font-weight: 900;
+  letter-spacing: 0.01em;
   margin-top: 5rem;
   margin-bottom: 0.3rem;
 
@@ -48,6 +49,7 @@ h3 {
   font-family: 'Muli', sans-serif;
   font-size: 1.4rem;
   font-weight: 900;
+  letter-spacing: 0.03em;
   margin-top: 0rem;
   margin-bottom: 2rem;
 }
@@ -57,18 +59,26 @@ h4 {
   font-family: 'Muli', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
+  letter-spacing: 0.01em;
   color: rgb(255, 197, 71);
   margin-top: 3rem;
   margin-bottom: 0.5rem;
   /* text-decoration: underline; */
 }
 
+.versalienitalic {
+  /* Zeichenformat Untertitel Versal Italic */
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 h5 {
   /* Absatzformat Quelle */
   font-family: 'Muli', sans-serif;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   font-weight: 400;
-  margin-top: 0rem;
+  margin-top: 0.5rem;
+  color: rgb(180, 180, 180);
 }
 
 p {
@@ -76,45 +86,44 @@ p {
   font-family: 'Muli', sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  /* text-align: justify; */
-  line-height: 1.4em;
+  line-height: 1.7em;
+  letter-spacing: 0.01em;
   margin-top: 0rem;
   margin-bottom: 3rem;
 }
 
-.Textanker
-/* Absatzformat Navigationsmenu zb Tag 1 */
-{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 3em;
-  color: rgb(255, 197, 71);
-  text-decoration: none;
+.bold {
+  /* Zeichenformat Grundtext Bold */
+  font-weight: 800;
+}
 
-  margin: 0.5rem;
-  height: auto;
-  padding: 0.5rem;
-  outline-style: solid;
-  outline-width: 0.15em;
-  outline-color: rgb(255, 197, 71);
+/*Navigationsbuttons*/
+.btn {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(255, 197, 71);
+
+  margin: 0.4em;
+  border: 0.15em solid rgb(255, 197, 71);
+  background-color: none;
+  padding: 0.45em;
+  cursor: pointer;
+}
+.btn1{
+  color: rgb(255, 197, 71);
+}
+.btn1:hover{
+  transition: 0.8s;
+  background-color: black;
+}
+
+.Absichtserklaerung {
+  color: black;
 }
 
 
-/* .Textanker
-{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.6em;
-  color: black;
-  text-shadow: 0.08em 0.09em rgb(255, 197, 71);  margin-top: 0rem;
-  margin-bottom: 0.5rem;
-  text-decoration: underline;
-
-} */
-
-
+/* FORMATIERUNGEN */
 
 body {
   /* Hintergrundfarbe Gelb */
@@ -150,7 +159,7 @@ body {
   margin-right: auto;
 }
 
-.textspalte img {
+.textspalte img video {
   /* Bilder so breit wie textspalte */
   width: 100%;
 }
@@ -202,6 +211,45 @@ img.jump-top  {
   position: absolute;
   top: -200px;
 }
+
+
+
+
+
+/* ARCHIV */
+
+
+/* Absatzformat Navigationsmenu zb Tag 1
+.Textanker{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 3em;
+  color: rgb(255, 197, 71);
+  text-decoration: none;
+
+  margin: 0.5rem;
+  height: auto;
+  padding: 0.5rem;
+  outline-style: solid;
+  outline-width: 0.15em;
+  outline-color: rgb(255, 197, 71);
+} */
+
+
+/* .Textanker
+{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.6em;
+  color: black;
+  text-shadow: 0.08em 0.09em rgb(255, 197, 71);  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+
+} */
+
 
 
 /* .fazitbox{
