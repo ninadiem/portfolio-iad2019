@@ -66,8 +66,9 @@ h4 {
   /* text-decoration: underline; */
 }
 
-.versalienitalic {
-  /* Zeichenformat Untertitel Versal Italic */
+
+/* Zeichenformat Untertitel Versal Italic */
+.auszeichnung {
   text-transform: uppercase;
   font-style: italic;
 }
@@ -123,6 +124,7 @@ p {
 }
 
 
+
 /* FORMATIERUNGEN */
 
 body {
@@ -168,25 +170,17 @@ body {
 @media only screen and (min-width: 600px) {
   /* Wenn Bildschirm gleich oder breiter als 600px */
   /* oder rem/em */
-  .bildgalerie2spaltig{
+  .bildgalerie2spaltig, .bildgalerie3spaltig{
     /* Box mit zwei Spalten mit je 1 Bild */
     display: flex;
     justify-content: space-between;
   }
-  .spalte1,
-  .spalte2{
+  .bildgalerie2spaltig .spalte {
     flex-basis: 48.5%;
     max-width: 48.5%;
   }
 
-  .bildgalerie3spaltig{
-    /* Box mit drei Spalten mit je 1 Bild */
-    display: flex;
-    justify-content: space-between;
-  }
-  .spalte1,
-  .spalte2,
-  .spalte3{
+  .bildgalerie3spaltig .spalte{
     flex-basis: 31.3333333333%;
     max-width: 31.3333333333%;
   }
