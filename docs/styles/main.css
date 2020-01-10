@@ -9,10 +9,6 @@ html {
   html {
     font-size: 18px;
   }
-
-  /* h1 {
-    font-size: 5rem;
-    } */
 }
 
 /* ABSATZ- & ZEICHENFORMATE */
@@ -156,7 +152,7 @@ body {
   margin-right: auto;
 }
 
-.textspalte img video {
+.textspalte, img, video {
   /* Bilder so breit wie textspalte */
   width: 100%;
 }
