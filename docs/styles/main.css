@@ -103,15 +103,18 @@ p {
   background-color: none;
   padding: 0.45em;
   cursor: pointer;
+  outline: none;
 }
 
 .btn1 {
   color: rgb(255, 197, 71);
+  outline: none;
 }
 
 .btn1:hover {
   transition: 0.8s;
   background-color: black;
+  outline: none;
 }
 
 .Absichtserklaerung {
@@ -154,6 +157,7 @@ body {
 
 .textspalte, img, video {
   /* Bilder so breit wie textspalte */
+  outline: none;
   width: 100%;
 }
 
