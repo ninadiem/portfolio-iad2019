@@ -4,8 +4,6 @@ html {
 }
 
 @media only screen and (min-width: 600px) {
-
-  /* oder rem/em */
   html {
     font-size: 18px;
   }
@@ -54,17 +52,17 @@ h4 {
   font-family: 'Muli', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
-  letter-spacing: 0.01em;
-  color: rgb(255, 197, 71);
+  letter-spacing: 0.015em;
+  color: rgb(245, 192, 68);
   margin-top: 3rem;
-  margin-bottom: 0.5rem;
-  /* text-decoration: underline; */
+  margin-bottom: 0.7rem;
 }
 
-/* Zeichenformat Untertitel Versal Italic */
 .auszeichnung {
+  /* Zeichenformat Untertitel Versal Italic */
   text-transform: uppercase;
   font-weight: 200;
+  letter-spacing: 0.04em;
 }
 
 h5 {
@@ -97,7 +95,7 @@ p {
   font-family: 'Muli', sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
-  color: rgb(255, 197, 71);
+  color: rgb(245, 192, 68);
   margin: 0.4em;
   border: 0.15em solid rgb(255, 197, 71);
   background-color: none;
@@ -107,7 +105,7 @@ p {
 }
 
 .btn1 {
-  color: rgb(255, 197, 71);
+  color: rgb(245, 192, 68);
   outline: none;
 }
 
@@ -155,8 +153,8 @@ body {
   margin-right: auto;
 }
 
-.textspalte, img, video {
-  /* Bilder so breit wie textspalte */
+.textspalte img, video {
+  /* Bilder Videos so breit wie Textspalte */
   outline: none;
   width: 100%;
 }
@@ -164,7 +162,6 @@ body {
 @media only screen and (min-width: 600px) {
 
   /* Wenn Bildschirm gleich oder breiter als 600px */
-  /* oder rem/em */
   .bildgalerie2spaltig, .bildgalerie3spaltig {
     /* Box mit zwei Spalten mit je 1 Bild */
     display: flex;
@@ -183,7 +180,7 @@ body {
 }
 
 .space {
-  /*für grössere Abstände zwischen Kapiteln zb*/
+  /*für grössere Abstände*/
   height: 2rem
 }
 
@@ -199,65 +196,8 @@ img.jump-top {
 
 #top
 
-/* Position wo back to top button hinspringt */
+/* Position, wo back to top button hinspringt */
   {
   position: absolute;
   top: -200px;
 }
-
-/* ARCHIV */
-/* Absatzformat Navigationsmenu zb Tag 1
-.Textanker{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 3em;
-  color: rgb(255, 197, 71);
-  text-decoration: none;
-
-  margin: 0.5rem;
-  height: auto;
-  padding: 0.5rem;
-  outline-style: solid;
-  outline-width: 0.15em;
-  outline-color: rgb(255, 197, 71);
-} */
-/* .Textanker
-{
-  font-family: 'Muli', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.6em;
-  color: black;
-  text-shadow: 0.08em 0.09em rgb(255, 197, 71);  margin-top: 0rem;
-  margin-bottom: 0.5rem;
-  text-decoration: underline;
-
-} */
-/* .fazitbox{
-  height: auto;
-  padding: 1rem;
-  outline-style: solid;
-  outline-width: 0.15em;
-  outline-color: rgb(255, 197, 71);
-} */
-/* .fazittext{ */
-/* font-family: 'Arvo', serif; */
-/* font-size: 0.95rem; */
-/* font-family: 'Crimson Text', serif;
-  font-style: italic;
-  font-size: 1.3rem;
-  line-height: 1.1em;
-  letter-spacing: 0.03em;
-  color: rgb(255, 197, 71);
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-} */
-/* .Backtotop{
- position: fixed;
- padding:0.35em 1.2em;
- border:0.1em solid red;
- font-family:'Roboto',sans-serif;
- font-weight:300;
- color:red;
-} */
