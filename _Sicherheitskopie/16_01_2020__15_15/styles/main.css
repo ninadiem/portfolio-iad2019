@@ -1,0 +1,264 @@
+html {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* oder rem/em */
+  html {
+    font-size: 18px;
+  }
+}
+
+/* ABSATZ- & ZEICHENFORMATE */
+h1
+
+/* Absatzformat Haupttitel */
+  {
+  font-family: 'Muli', sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1.2em;
+  text-shadow: 0.06em 0.06em rgb(255, 197, 71);
+  margin-top: 3rem;
+  hyphens: auto;
+}
+
+h2 {
+  /* Absatzformat Titel */
+  font-family: 'Muli', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  margin-top: 5rem;
+  margin-bottom: 0.3rem;
+  border-top-width: 0.14em;
+  border-top-color: black;
+  border-top-style: solid;
+  padding-top: 1rem;
+}
+
+h3 {
+  /* Absatzformat Datum */
+  font-family: 'Muli', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  /* Absatzformat Untertitel */
+  font-family: 'Muli', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  color: rgb(255, 197, 71);
+  margin-top: 3rem;
+  margin-bottom: 0.7rem;
+  /* text-decoration: underline; */
+}
+
+/* Zeichenformat Untertitel Versal Italic */
+.auszeichnung {
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.04em;
+}
+
+h5 {
+  /* Absatzformat Quelle */
+  font-family: 'Muli', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  color: rgb(180, 180, 180);
+}
+
+p {
+  /* Absatzformat Grundtext */
+  font-family: 'Muli', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 0.01em;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+}
+
+.bold {
+  /* Zeichenformat Grundtext Bold */
+  font-weight: 800;
+}
+
+/*Navigationsbuttons*/
+.btn {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(255, 197, 71);
+  margin: 0.4em;
+  border: 0.15em solid rgb(255, 197, 71);
+  background-color: none;
+  padding: 0.45em;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn1 {
+  color: rgb(255, 197, 71);
+  outline: none;
+}
+
+.btn1:hover {
+  transition: 0.8s;
+  background-color: black;
+  outline: none;
+}
+
+.Absichtserklaerung {
+  color: black;
+}
+
+/* FORMATIERUNGEN */
+body {
+  /* Hintergrundfarbe Gelb */
+  margin: 0;
+  background-color: rgb(255, 197, 71);
+}
+
+.content {
+  /* Box Inhalt */
+  margin-top: 1.4rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.hintergrund {
+  /* Hintergrund Weiss */
+  width: 100%;
+  background-color: white;
+}
+
+.hintergrund img {
+  /* Titelbild so breit wie content */
+  width: 100%;
+}
+
+.textspalte {
+  /* Textspalte */
+  max-width: 40rem;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textspalte, img, video {
+  /* Bilder so breit wie textspalte */
+  outline: none;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* Wenn Bildschirm gleich oder breiter als 600px */
+  /* oder rem/em */
+  .bildgalerie2spaltig, .bildgalerie3spaltig {
+    /* Box mit zwei Spalten mit je 1 Bild */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bildgalerie2spaltig .spalte {
+    flex-basis: 48.5%;
+    max-width: 48.5%;
+  }
+
+  .bildgalerie3spaltig .spalte {
+    flex-basis: 31.3333333333%;
+    max-width: 31.3333333333%;
+  }
+}
+
+.space {
+  /*für grössere Abstände zwischen Kapiteln zb*/
+  height: 2rem
+}
+
+img.jump-top {
+  /*jump to top button*/
+  width: 4rem;
+  height: 4rem;
+  display: block;
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+}
+
+#top
+
+/* Position wo back to top button hinspringt */
+  {
+  position: absolute;
+  top: -200px;
+}
+
+/* ARCHIV */
+/* Absatzformat Navigationsmenu zb Tag 1
+.Textanker{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 3em;
+  color: rgb(255, 197, 71);
+  text-decoration: none;
+
+  margin: 0.5rem;
+  height: auto;
+  padding: 0.5rem;
+  outline-style: solid;
+  outline-width: 0.15em;
+  outline-color: rgb(255, 197, 71);
+} */
+/* .Textanker
+{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.6em;
+  color: black;
+  text-shadow: 0.08em 0.09em rgb(255, 197, 71);  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+
+} */
+/* .fazitbox{
+  height: auto;
+  padding: 1rem;
+  outline-style: solid;
+  outline-width: 0.15em;
+  outline-color: rgb(255, 197, 71);
+} */
+/* .fazittext{ */
+/* font-family: 'Arvo', serif; */
+/* font-size: 0.95rem; */
+/* font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.1em;
+  letter-spacing: 0.03em;
+  color: rgb(255, 197, 71);
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+} */
+/* .Backtotop{
+ position: fixed;
+ padding:0.35em 1.2em;
+ border:0.1em solid red;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:red;
+} */
